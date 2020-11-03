@@ -10,6 +10,7 @@
         <about-me></about-me>
         <resume></resume>
         <skills></skills>
+        <projects></projects>
      </div>
      <app-footer></app-footer>
   </div>
@@ -23,6 +24,7 @@ import AboutMe from '../components/AboutMe.vue'
 import Skills from '../components/Skills.vue'
 import Footer from '../components/Footer.vue'
 import Resume from '../components/Resume.vue'
+import Projects from '../components/Projects.vue'
 
 export default {
   components: {
@@ -31,7 +33,8 @@ export default {
     'about-me':AboutMe,
     'app-footer':Footer,
     'skills' : Skills,
-    'resume':Resume
+    'resume':Resume,
+    'projects' : Projects
   }
 }
 </script>
