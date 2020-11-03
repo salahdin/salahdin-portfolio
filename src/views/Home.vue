@@ -1,18 +1,41 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+      <form action="#home">
+      <button id="toTop" title="Go to top">
+        <i class="fas fa-angle-up"></i>
+      </button>
+    </form>
+    <app-header></app-header>
+     <div class="main-content">
+        <about-me></about-me>
+        <resume></resume>
+        <skills></skills>
+     </div>
+     <app-footer></app-footer>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+
+
+import Header from '../components/Header.vue'
+import AboutMe from '../components/AboutMe.vue'
+import Skills from '../components/Skills.vue'
+import Footer from '../components/Footer.vue'
+import Resume from '../components/Resume.vue'
 
 export default {
-  name: 'Home',
   components: {
-    HelloWorld
+    
+    'app-header':Header,
+    'about-me':AboutMe,
+    'app-footer':Footer,
+    'skills' : Skills,
+    'resume':Resume
   }
 }
 </script>
+
+<style>
+
+</style>
