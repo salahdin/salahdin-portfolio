@@ -8,7 +8,7 @@
             data-aos-easing="linear"
           >
             <div class="column is-12">
-              <h1 class="title has-text-centered section-title">Projects</h1>
+              <h1 class="title has-text-centered section-title">My Work</h1>
             </div>
             <div v-for="project in projects" :key="project.slug" class="column is-3">
                 <h5>{{project.title}}</h5>
