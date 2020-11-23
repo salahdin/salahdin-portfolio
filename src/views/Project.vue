@@ -1,34 +1,29 @@
 <template>
-    <div>
-        <section class="hero is-medium is-dark is-bold">
-            <div class="hero-body">
-                <div class="container">
-                    <h1 class="title is-2">
-                        {{project.title}}
-                    </h1>
-                    <h2 class="subtitle is-4">
-                        {{project.snippet}}
-                    </h2>
+<div class="container">
+    <div class="columns is-mobile is-centered">
+        <div class="column">
+            <div class="card ">
+                <div class="card-image">
+                    <figure class="image is-128by128" v-for="image in project.images" :key="image.url">
+                    <img :src="image.url" alt="Placeholder image">
+                    </figure>
                 </div>
-            </div>
-        </section>
-        <section class="section">
-            <div class="container is-fluid">
-                <div class="columns">
-                    <div class="column is-two-thirds">
-                        
+                <div class="card-content">
+                    <div class="media-content">
+                        <p class="title is-4">{{project.title}}</p>
                     </div>
-                    <div class="column is-one-third">
-                        <div class="columns is-multiline">
-                            <div class="column is-full" v-for="image in project.images" :key="image.name">
-                                <img :src="image.url"/>
-                            </div>
-                        </div>
+                    </div>
+
+                    <div class="content">
+                    <p>{{project.body}}</p>
+                    tools : <a href="#">{{project.tags}}</a> 
+                    <br>
+                    link : <a v-bind="project.link">{{project.link}}</a>
                     </div>
                 </div>
-            </div>
-        </section>
+                </div>
     </div>
+</div>
 </template>
 
 
@@ -65,7 +60,9 @@
                         title: self.airtableResponse[0].fields.Title,
                         snippet: self.airtableResponse[0].fields.Excerpt,
                         images: self.airtableResponse[0].fields.Image,
-                        body: self.airtableResponse[0].fields.Body
+                        body: self.airtableResponse[0].fields.Body,
+                        tags: self.airtableResponse[0].fields.tags,
+                        link: self.airtableResponse[0].fields.gitlink,
                         
                     }
                     return thisProject

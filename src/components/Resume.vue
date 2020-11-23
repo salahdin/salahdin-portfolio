@@ -12,15 +12,11 @@
               </h1>
             </div>
             <div class="column is-10 has-text-centered is-offset-1">
-              <h2 class="subtitle">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et doloremagna aliqua
-              </h2>
-              <form action="example.docs">
+              <a href="https://drive.google.com/file/d/1FjkWcEoc6ZYEhwgTah8VWXeI2AXgIS7x/view?usp=sharing">
                 <button class="button">
                   Download Resume&emsp;<i class="fad fa-download fa-lg"></i>
                 </button>
-              </form>
+              </a>
             </div>
           </div>
         </div>

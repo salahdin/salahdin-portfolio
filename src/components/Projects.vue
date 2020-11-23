@@ -8,14 +8,14 @@
             data-aos-easing="linear"
           >
             <div class="column is-12">
-              <h1 class="title has-text-centered section-title">My Work</h1>
+              <h1 class="title has-text-centered section-title">Projects</h1>
             </div>
             <div v-for="project in projects" :key="project.slug" class="column is-3">
                 <h5>{{project.title}}</h5>
                 <router-link :to="'/project/'+project.slug">
                 <figure class="image is-2by1 work-item">
                 <figcaption style="color: black">{{project.title}}</figcaption>
-                <img v-bind:src="project.image" alt="">
+                <img v-bind:src="project.image " alt="">
                 </figure>
                 </router-link>
             </div>

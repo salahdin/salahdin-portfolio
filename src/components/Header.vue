@@ -1,18 +1,10 @@
 <template>
-<!-- Begin Header -->
     <div class="header-wrapper" id="home">
       <!-- Begin Hero -->
       <section class="hero is-large">
         <!-- Begin Mobile Nav -->
-        <nav class="navbar is-transparent is-hidden-desktop">
-          <!-- Begin Burger Menu -->
-          <div class="navbar-brand">
-            <div class="navbar-burger burger" data-target="mobile-nav">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-          </div>
+
+        <nav class="navbar is-transparent is-hidden-desktop">  
           <!-- End Burger Menu -->
           <div id="mobile-nav" class="navbar-menu">
             <div class="navbar-end">
@@ -39,6 +31,11 @@
               <div class="navbar-item">
                 <a class="navbar-item" href="#my-work">
                   My Work
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#socials">
+                 Socials
                 </a>
               </div>
               <div class="navbar-item">
@@ -81,6 +78,9 @@
                     <a href="#my-work">My Work</a>
                   </li>
                   <li>
+                    <a href="#social-media">Social Media</a>
+                  </li>
+                  <li>
                     <a href="#contact">Contact</a>
                   </li>
                 </ul>
@@ -93,4 +93,13 @@
       <!-- End Hero -->
     </div>
     <!-- End Header -->
-    </template>
+</template>
+
+
+<script>
+
+export default {
+
+   
+}
+</script>

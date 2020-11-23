@@ -12,17 +12,13 @@
             >
               <p class="is-larger">
                 &emsp;&emsp;<strong
-                  >Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Placeat totam nemo culpa tenetur accusamus facilis enim nam impedit odit animi molestiae,
-                esse est veniam, iusto ullam. Ex nulla sint illum!</strong
+                  >
+              My name is Saladhin jemal. I'm a computer science graduate. I was born and raised in Addis Ababa.
+              I did B.S.C in Computer Science from Botswana University in Gaborone.
+              I like music, games, philosophy , photography and movies</strong
                 >
               </p>
               <br />
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Placeat totam nemo culpa tenetur accusamus facilis enim nam impedit odit animi molestiae,
-                esse est veniam, iusto ullam. Ex nulla sint illum!
-              </p>
               <br />
               <div class="is-divider"></div>
               <div class="columns about-links">

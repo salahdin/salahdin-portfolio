@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <hamburger></hamburger>
       <form action="#home">
       <button id="toTop" title="Go to top">
         <i class="fas fa-angle-up"></i>
@@ -11,6 +12,8 @@
         <resume></resume>
         <skills></skills>
         <projects></projects>
+        <socials></socials>
+        <contact></contact>
      </div>
      <app-footer></app-footer>
   </div>
@@ -25,6 +28,9 @@ import Skills from '../components/Skills.vue'
 import Footer from '../components/Footer.vue'
 import Resume from '../components/Resume.vue'
 import Projects from '../components/Projects.vue'
+import Contact from '../components/Contact.vue'
+import Hamburger from '../components/hamburger.vue'
+import Socials from '../components/Socials.vue'
 
 export default {
   components: {
@@ -34,7 +40,11 @@ export default {
     'app-footer':Footer,
     'skills' : Skills,
     'resume':Resume,
-    'projects' : Projects
+    'projects' : Projects,
+    'contact': Contact,
+    'hamburger':Hamburger,
+    'socials':Socials
+    
   }
 }
 </script>
