@@ -12,6 +12,7 @@
         <resume></resume>
         <skills></skills>
         <projects></projects>
+        <graphics></graphics>
         <socials></socials>
         <contact></contact>
      </div>
@@ -31,6 +32,8 @@ import Projects from '../components/Projects.vue'
 import Contact from '../components/Contact.vue'
 import Hamburger from '../components/hamburger.vue'
 import Socials from '../components/Socials.vue'
+import Graphics from '../components/GraphicsDesign.vue'
+
 
 export default {
   components: {
@@ -43,8 +46,8 @@ export default {
     'projects' : Projects,
     'contact': Contact,
     'hamburger':Hamburger,
-    'socials':Socials
-    
+    'socials':Socials,
+    'graphics':Graphics
   }
 }
 </script>

@@ -33,6 +33,11 @@
                   My Work
                 </a>
               </div>
+              <div class="navbar-items">
+                  <a id="home" href="#graphics-design">
+                      <span>Graphics Design</span>
+                  </a>
+              </div>
               <div class="navbar-item">
                 <a class="navbar-item" href="#socials">
                  Socials

@@ -12,12 +12,16 @@
       <a id="home" href="#my-work">
         <span>My Work</span>
       </a>
+      <a id="home" href="#graphics-design">
+        <span>Graphics Design</span>
+      </a>
       <a id="home" href="#social-media">
         <span>Social Media</span>
       </a>
       <a id="home" href="#contact">
         <span>Contact</span>
       </a>
+      
     </Slide>
 </template>
 

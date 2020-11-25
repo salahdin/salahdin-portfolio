@@ -11,13 +11,13 @@
               data-aos-easing="linear"
             >
               <h1>Adobe Experience Design</h1>
-              <progress class="progress" value="70" max="100">30%</progress>
+              <progress class="progress" value="70" max="100">70%</progress>
               <h1>Adobe PhotoShop</h1>
-              <progress class="progress" value="65" max="100">30%</progress>
+              <progress class="progress" value="65" max="100">65%</progress>
               <h1>Visual Studio Code</h1>
-              <progress class="progress" value="58" max="100">45%</progress>
+              <progress class="progress" value="58" max="100">58%</progress>
               <h1>Fl studio</h1>
-              <progress class="progress" value="90" max="100">60%</progress>
+              <progress class="progress" value="60" max="100">60%</progress>
             </div>
             <div
               class="column is-6"

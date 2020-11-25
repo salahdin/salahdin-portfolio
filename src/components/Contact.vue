@@ -79,17 +79,17 @@ import emailjs from 'emailjs-com';
 export default {
     data(){
         return {
-            showSuccess : false
+            showSuccess : null
         }
     },
-
+    created: function(){
+        console.log(this.showSuccess);
+    },
     methods: {
     sendEmail: (e) => {
       emailjs.sendForm('service_9w10fvk', 'template_j13xfl1', e.target, 'user_rCHDA2GrM98Mn5mqiCkI0')
         .then((result) => {
-            console.log('SUCCESS!', result.status, result.text);
-            this.showSuccess = true;
-            console.log(this.showSuccess)
+          console.log('SUCCESS!', result.status, result.text);
         }, (error) => {
             console.log('FAILED...', error);
         });
